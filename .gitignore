@@ -78,6 +78,7 @@ source/
 publish/
 dist/
 src/
+config.json
 *.bat
 *.exe
 *.zip
