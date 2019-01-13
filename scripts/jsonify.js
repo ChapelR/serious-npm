@@ -8,10 +8,25 @@ module.exports = function () {
 
     var idx = jetpack.read(paths.lib + 'index.tpl', 'utf8');
 
-    idx = idx.replace('/% description %/', config.description || '');
+    // debug mode
+    idx = idx.replace(/{{debug}}/, config.debug ? 'on' : 'off');
+
+    // add site description
+    idx = idx.replace(/{{description}}/g, config.description || '');
+
+    // google analytics id
+    idx = idx.replace(/{{tracking-id}}/g, config.googleAnalytics || '');
+    if (config.googleAnalytics) {
+        idx = idx.replace(/<!--analytics/, '');
+        idx = idx.replace(/analytics-->/, '');
+    }
+
+    // write to file
     jetpack.write(config.output + '/index.html', idx, { atomic : true });
 
+    // add blank theme (if no theme.css exists)
     jetpack.copy(paths.lib + '/theme.txt', config.output + '/theme.css', { overwrite : true });
 
+    // compile markdown and write
     md2json(config.input, config.output + '/content');
 };

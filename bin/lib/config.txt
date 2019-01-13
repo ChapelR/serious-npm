@@ -15,5 +15,6 @@
     "recentsExcerpts": 1,
     "episodesExcerpts": 3,
     "debug": false,
-    "disqusShortname": ""
+    "disqusShortname": "",
+    "googleAnalytics": ""
 }

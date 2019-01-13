@@ -1,9 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!--analytics
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{tracking-id}}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{tracking-id}}');
+        </script>
+    analytics-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="/% description %/">
+    <meta name="description" content="{{description}}">
     <title>Serious</title>
     
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
@@ -11,14 +21,12 @@
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/gh/chapelr/serious@latest/cdn/serious.min.css">
     <link rel="stylesheet" href="./theme.css">
 </head>
-<body data-debug="on" data-ep="0">
+<body data-debug="{{debug}}" data-ep="0">
 <div id="layout">
     <div id="overlay">
         <div class="loader">Loading...</div>
     </div>
-    <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link" title="Toggle the menu.">
-        <!-- Hamburger icon -->
         <span></span>
     </a>
 
@@ -51,9 +59,7 @@
             <h2 id="subtitle"></h2>
         </div>
 
-        <div id="content">
-            <!-- rendered output -->
-        </div>
+        <div id="content"></div>
     </div>
 
     <div id='footer'>

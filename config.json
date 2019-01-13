@@ -1,9 +1,9 @@
 {
-    "title": "The Title of Your Story",
+    "title": "Serious Example",
     "displayTitle": "",
     "subtitle": "",
     "description": "A description of your website (for web searches) goes here.",
-    "copyright": "&copy; [year] [your name]. All rights reserved.",
+    "copyright": "&copy; 2019 Chapel. All rights reserved.",
     "posts": "episodes",
     "input": "./src",
     "output": "./publish",
@@ -15,5 +15,6 @@
     "recentsExcerpts": 1,
     "episodesExcerpts": 3,
     "debug": false,
-    "disqusShortname": ""
+    "disqusShortname": "serious-1",
+    "googleAnalytics": "UA-132388472-1"
 }
