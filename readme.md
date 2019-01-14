@@ -1,5 +1,7 @@
 # Serious (serious-fiction)
 
+![](https://img.shields.io/david/ChapelR/serious-npm.svg) ![](https://img.shields.io/npm/l/serious-fiction.svg) ![](https://img.shields.io/npm/v/serious-fiction.svg) [![](https://img.shields.io/github/last-commit/ChapelR/serious-npm.svg)](https://github.com/ChapelR/serious-npm) 
+
 Serious is a framework for building episodic (or serialized) fiction for the web. It takes a number of source files, written in markdown format, and compiles these files into a simple, sructured single-page web app for you to deploy to your webhost.
 
 [See the example story.](https://twinelab.net/serious/example)
