@@ -20,6 +20,25 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chapelr/serious@latest/cdn/serious.min.css">
     <link rel="stylesheet" href="./theme.css">
+    <!--cookies
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#edeff5",
+          "text": "#111"
+        },
+        "button": {
+          "background": "#4b81e8"
+        }
+      },
+      "position": "top"
+    })});
+    </script>
+    cookies-->
 </head>
 <body data-debug="{{debug}}" data-ep="0">
 <div id="layout">

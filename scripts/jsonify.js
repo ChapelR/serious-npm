@@ -21,6 +21,12 @@ module.exports = function () {
         idx = idx.replace(/analytics-->/, '');
     }
 
+    // cookies warning
+    if (config.cookiesWarning) {
+        idx = idx.replace(/<!--cookies/, '');
+        idx = idx.replace(/cookies-->/, '');
+    }
+
     // write to file
     jetpack.write(config.output + '/index.html', idx, { atomic : true });
 

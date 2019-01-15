@@ -16,5 +16,6 @@
     "episodesExcerpts": 3,
     "debug": false,
     "disqusShortname": "",
-    "googleAnalytics": ""
+    "googleAnalytics": "",
+    "cookiesWarning": true
 }
