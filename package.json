@@ -1,6 +1,6 @@
 {
   "name": "serious-fiction",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "description": "A framework for serialized web fiction.",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,8 @@
     "bin": "bin"
   },
   "scripts": {
-    "exe": "pkg . -o dist/serious --public"
+    "exe": "pkg . -o dist/serious --public",
+    "lint": "jshint ."
   },
   "keywords": [
     "serial-fiction",
@@ -35,7 +36,9 @@
     "http-server": "^0.11.1",
     "opn-cli": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChapelR/serious-npm.git"
