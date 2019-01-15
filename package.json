@@ -1,6 +1,6 @@
 {
   "name": "serious-fiction",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A framework for serialized web fiction.",
   "main": "index.js",
   "bin": {

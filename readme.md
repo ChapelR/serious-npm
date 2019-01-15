@@ -4,9 +4,11 @@
 
 Serious is a framework for building episodic (or serialized) fiction for the web. It takes a number of source files, written in markdown format, and compiles these files into a simple, sructured single-page web app for you to deploy to your webhost.
 
-[See the example story.](https://twinelab.net/serious/example)
-
-[Home page.](https://twinelab.net/serious)
+- [See the example story.](https://twinelab.net/serious/example)  
+- [Home page.](https://twinelab.net/serious)  
+- [Repo for the CLI package.](https://github.com/ChapelR/serious-npm)  
+- [Repo for the rendering engine.](https://github.com/ChapelR/serious)  
+- [CSS Themes.](https://github.com/ChapelR/serious-themes)
 
 MIT license.
 
@@ -143,4 +145,10 @@ Everything in the output folder (`publish` by default) is required to deploy the
 
 ## Themes
 
-I'm working on themes (pure CSS for now) to deploy for Serious in the future. Templates are not out of the question either, but I didn't design with that in mind, so we'll see. Some clean-up of the CSS will also come later. For now, though, you can write custom style rules in the `theme.css` file in your output directory to edit the styles.
+[Some CSS themes by me.](https://github.com/ChapelR/serious-themes)
+
+You can create a theme by editing the `theme.css` file in the output directory. You can restore the defaults or start over by deleting the file--a new, blank `theme.css` file will be generated next time you build. You can download and install themes by overwriting the same file.
+
+## Project Structure
+
+There are currently three main components to the project: [the NPM package](https://github.com/ChapelR/serious-npm), which is the Serious CLI; the [repository for the rendering engine](https://github.com/ChapelR/serious), scripts, and styles that are served to the generated web app via CDN; and a [repository for the themes](https://github.com/ChapelR/serious-themes) I've made. All of these components could do with some tidying, but the gist of it is that these three things are being developed in tandem, but have little to do with each other functionally.

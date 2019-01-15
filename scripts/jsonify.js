@@ -31,7 +31,9 @@ module.exports = function () {
     jetpack.write(config.output + '/index.html', idx, { atomic : true });
 
     // add blank theme (if no theme.css exists)
-    jetpack.copy(paths.lib + '/theme.txt', config.output + '/theme.css', { overwrite : true });
+    jetpack.copy(paths.lib + '/theme.txt', config.output + '/theme.css', { overwrite : function () {
+        return false;
+    }});
 
     // compile markdown and write
     md2json(config.input, config.output + '/content');
