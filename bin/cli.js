@@ -1,10 +1,13 @@
 #! /usr/bin/env node
 
 var main = require('../index.js');
+// clone the args
 var args = process.argv.slice();
 
+// we only care about the first two args
 args.splice(0, 2);
 
+// get the first arg
 var directive = args[0] ? args[0].trim().toLowerCase() : 'help';
 
 switch (directive) {
@@ -16,6 +19,7 @@ switch (directive) {
         main.build();
         console.log('Build complete.');
         if (args[1] && args[1].trim().toLowerCase() === 'serve') {
+            // check second arg
             main.serve();
             console.log('Serving to localhost:8000.');
         }
@@ -25,6 +29,7 @@ switch (directive) {
         break;
     case 'serve':
         if (args[1] && args[1].trim().toLowerCase() === 'build') {
+            // check second arg
             main.build();
             console.log('Build complete.');
         }
@@ -32,6 +37,7 @@ switch (directive) {
         console.log('Serving to localhost:8000.');
         break;
     default:
+        // a help message...
         console.log(`Serious CLI usage: serious [action]
 
             init  : creates a config.json file and example posts
