@@ -83,6 +83,7 @@ When you run `serious init`, a `config.json` file will be added to your director
 |`disqusShortname`|`""`|You can set up comments through [Disqus](https://disqus.com/). A comment thread will be added to every episode, but not to meta posts, lists, etc. Just add your shortname here, no further configuration is necessary!|
 |`googleAnalytics`|`""`|You can set up [Google Analytics](https://analytics.google.com) for your Serious story. Just create an account, enter your site's URL, and copy and paste the tracking ID here.|
 |`cookieWarning`|`true`|Adds a [Cookie Consent](https://cookieconsent.insites.com/)-generated cookie consent warning to you project. If you have your own solution, or just don't care, you can set this to false. Serious itself doesn't use cookies, it only requires them if you use Disqus and/or Google Analytics.|
+|`version`|`"latest"`|The version of Serious's rendering engine to include. "latest" is recommended, but if you need to use a different version, you can tag it here. (Currently there is only one version, "v1.0.0", which is also "latest", this option will allow you to compile to other versions at some point.)|
 
 ## Writing Episodes
 

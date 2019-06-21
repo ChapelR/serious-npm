@@ -16,6 +16,16 @@ module.exports = function () {
     // add site description
     template = template.replace(/{{description}}/g, config.description || '');
 
+    // serious version -- which version/release tag to pull from the CDN and compile into the project
+    var version = 'latest';
+    if (config.version && typeof config.version === 'string') {
+        version = config.version.trim().toLowerCase();
+        if (version !== 'latest' || version.charAt(0) !== 'v') {
+            version = 'latest';
+        }
+    }
+    template = template.replace(/{{version}}/g, version || 'latest');
+
     // google analytics id
     template = template.replace(/{{tracking-id}}/g, config.googleAnalytics || '');
     if (config.googleAnalytics) {
