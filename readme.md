@@ -59,7 +59,8 @@ When you run `serious init`, a `config.json` file will be added to your director
     "debug": false,
     "disqusShortname": "",
     "googleAnalytics": "",
-    "cookieWarning": true
+    "cookieWarning": true,
+    "version": "latest"
 }
 ```
 
