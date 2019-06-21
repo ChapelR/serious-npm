@@ -22,5 +22,5 @@ module.exports = function () {
         }
     });
     // serve the app (this should probably be an -o option or similar)
-    require('opn')("http://localhost:8000/" + config.output);
+    require('open')("http://localhost:8000/" + config.output);
 };

@@ -17,5 +17,6 @@
     "debug": false,
     "disqusShortname": "",
     "googleAnalytics": "",
-    "cookiesWarning": true
+    "cookiesWarning": true,
+    "version": "latest"
 }
