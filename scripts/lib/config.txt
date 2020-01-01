@@ -18,5 +18,6 @@
     "disqusShortname": "",
     "googleAnalytics": "",
     "cookiesWarning": true,
+    "nsfw": false,
     "version": "latest"
 }
