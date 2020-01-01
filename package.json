@@ -1,6 +1,6 @@
 {
   "name": "serious-fiction",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A framework for serialized web fiction.",
   "main": "index.js",
   "bin": {
@@ -17,7 +17,7 @@
     "bin": "bin"
   },
   "scripts": {
-    "exe": "pkg . -o dist/serious --public",
+    "exe": "pkg . -o dist/serious --public --targets=node10-win-x64,node10-win-x86,node10-linux-x64,node10-linux-x86,node10-macos-x64",
     "lint": "jshint ."
   },
   "keywords": [

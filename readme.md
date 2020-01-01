@@ -60,7 +60,7 @@ When you run `serious init`, a `config.json` file will be added to your director
     "disqusShortname": "",
     "googleAnalytics": "",
     "cookieWarning": true,
-    "nswf": false
+    "nswf": false,
     "version": "latest"
 }
 ```
