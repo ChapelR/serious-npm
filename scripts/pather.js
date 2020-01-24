@@ -13,6 +13,7 @@ module.exports = function () {
     return {
         base,
         sep     : path.sep,
+        nm      : base + path.sep + 'node_modules' + path.sep, 
         bin     : base + path.sep + 'bin' + path.sep,
         scripts : base + path.sep + 'scripts' + path.sep,
         lib     : base + path.sep + 'scripts' + path.sep + 'lib' + path.sep,

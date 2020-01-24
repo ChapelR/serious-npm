@@ -1,6 +1,6 @@
 {
   "name": "serious-fiction",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A framework for serialized web fiction.",
   "main": "index.js",
   "bin": {
@@ -30,12 +30,13 @@
   "author": "Chapel",
   "license": "MIT",
   "dependencies": {
+    "connect": "^3.7.0",
     "filenamify": "^4.1.0",
     "fs-jetpack": "^2.2.3",
     "gray-matter": "^4.0.2",
     "html-minifier": "^4.0.0",
-    "http-server": "^0.11.1",
-    "open": "^6.4.0"
+    "open": "^6.4.0",
+    "serve-static": "^1.14.1"
   },
   "devDependencies": {
     "jshint": "^2.10.3"
