@@ -157,6 +157,16 @@ There are currently three main components to the project: [the NPM package](http
 
 ## Changelog
 
+### v1.2.2
+
+- Fixed subtitle bug.
+
+### v1.2.1
+
+- Fixed issue with NSFW config.
+- Minor update to base styles.
+- Switched from uglify to terser for rendering engine minification.
+
 ### v1.2.0
 
 - Fixed serve command.
