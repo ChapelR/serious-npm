@@ -14,10 +14,13 @@
   "directories": {
     "doc": "docs",
     "lib": "lib",
-    "bin": "bin"
+    "bin": "bin",
+    "test": "test"
   },
   "scripts": {
     "exe": "pkg . -o dist/serious --public --targets=node10-win-x64,node10-win-x86,node10-linux-x64,node10-linux-x86,node10-macos-x64",
+    "test": "mocha ./test/test.js",
+    "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/test.js",
     "lint": "jshint ."
   },
   "keywords": [
@@ -39,6 +42,9 @@
     "serve-static": "^1.14.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
     "jshint": "^2.10.3"
   },
   "repository": {

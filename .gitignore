@@ -78,6 +78,7 @@ source/
 publish/
 dist/
 stage/
+coverage/
 src/
 config.json
 *.bat
