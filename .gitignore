@@ -80,7 +80,7 @@ dist/
 stage/
 coverage/
 src/
-config.json
+#config.json
 *.bat
 *.exe
 *.zip

@@ -1,0 +1,24 @@
+{
+    "title": "Serious Fiction",
+    "displayTitle": "",
+    "subtitle": "A static-site generator for serial web fiction.",
+    "description": "Serious is a simple, opinionated static site generator for creating episodic web content.",
+    "copyright": "&copy; 2020 Chapel. All rights reserved.",
+    "posts": "episodes",
+    "input": "./src",
+    "output": "./publish",
+    "links": [
+        { "text": "Website", "url": "https://serious.twinelab.net", "label": "Read the docs." },
+        { "text": "Guide", "url": "https://serious.twinelab.net/#/guide", "label": "A gentle guide to help you get started." },
+        { "text": "Blog", "url": "https://twinelab.net/blog", "label": "Visit my blog." }
+    ],
+    "recentMax": 5,
+    "recentsExcerpts": 3,
+    "episodesExcerpts": 3,
+    "debug": false,
+    "disqusShortname": "serious-1",
+    "googleAnalytics": "UA-132388472-1",
+    "cookiesWarning": true,
+    "nsfw": false,
+    "version": "latest"
+}
