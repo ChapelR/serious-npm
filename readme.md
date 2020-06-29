@@ -161,6 +161,10 @@ There are currently three main components to the project: [the NPM package](http
 
 ## Changelog
 
+### v1.2.3
+
+- Just added some unit tests. Made a build mostly for the badges.
+
 ### v1.2.2
 
 - Fixed subtitle bug.
