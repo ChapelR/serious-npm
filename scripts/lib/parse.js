@@ -4,7 +4,12 @@ var matter = require('gray-matter');
 var filenamify = require('filenamify');
 var jetpack = require('fs-jetpack');
 var paths = require('../pather.js')();
-var config = require(paths.cwd + 'config.json');
+/* istanbul ignore next */
+try {
+    var config = require(paths.cwd + 'config.json');
+} catch (err) {
+    var config = {};
+}
 
 var normalize = function (string) {
     // normalize file names

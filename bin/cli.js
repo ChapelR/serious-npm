@@ -11,6 +11,12 @@ args.splice(0, 2);
 var directive = args[0] ? args[0].trim().toLowerCase() : 'help';
 
 switch (directive) {
+    case 'v':
+    case 'version':
+    case '-v':
+    case '--version':
+        console.log(main.version);
+        break;
     case 'init':
         main.init();
         console.log('Serious story initialized.');

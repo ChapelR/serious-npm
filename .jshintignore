@@ -1,5 +1,3 @@
 node_modules/
-test/
-publish/
-dist/
-stage/
+example/
+coverage/

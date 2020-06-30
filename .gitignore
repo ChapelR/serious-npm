@@ -75,12 +75,13 @@ typings/
 # FuseBox cache
 .fusebox/
 source/
-publish/
+
+# serious specific
 dist/
 stage/
 coverage/
-src/
-#config.json
-*.bat
-*.exe
-*.zip
+config.json
+**.bat
+**.exe
+**.zip
+**.log

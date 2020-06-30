@@ -1,0 +1,83 @@
+{
+  "story": [
+    {
+      "title": "Introduction",
+      "description": "What is Serious?",
+      "episode": 1,
+      "file": "introduction.json"
+    },
+    {
+      "title": "Install",
+      "description": "Installation Guide",
+      "episode": 2,
+      "file": "install.json"
+    },
+    {
+      "title": "Example Episode",
+      "description": "Welcome to Serious!",
+      "episode": 3,
+      "file": "example-episode.json"
+    },
+    {
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "episode": 4,
+      "file": "lorem-ipsum.json"
+    }
+  ],
+  "meta": [
+    {
+      "title": "Meta Posts",
+      "description": "Meta posts are awesome!",
+      "episode": "meta:meta-posts",
+      "id": "meta-posts",
+      "meta": true,
+      "file": "meta-posts.json",
+      "link": "Meta"
+    },
+    {
+      "title": "About",
+      "description": "Learn more about Serious.",
+      "episode": "meta:about",
+      "id": "about",
+      "meta": true,
+      "file": "about.json",
+      "link": "About",
+      "label": "Learn more about Serious."
+    }
+  ],
+  "title": "Serious Fiction",
+  "displayTitle": "",
+  "subtitle": "A static-site generator for serial web fiction.",
+  "description": "Serious is a simple, opinionated static site generator for creating episodic web content.",
+  "copyright": "&copy; 2020 Chapel. All rights reserved.",
+  "posts": "episodes",
+  "input": "./src",
+  "output": "./publish",
+  "links": [
+    {
+      "text": "Website",
+      "url": "https://serious.twinelab.net",
+      "label": "Read the docs."
+    },
+    {
+      "text": "Guide",
+      "url": "https://serious.twinelab.net/#/guide",
+      "label": "A gentle guide to help you get started."
+    },
+    {
+      "text": "Blog",
+      "url": "https://twinelab.net/blog",
+      "label": "Visit my blog."
+    }
+  ],
+  "recentMax": 5,
+  "recentsExcerpts": 3,
+  "episodesExcerpts": 3,
+  "debug": false,
+  "disqusShortname": "serious-1",
+  "googleAnalytics": "UA-132388472-1",
+  "cookiesWarning": true,
+  "nsfw": false,
+  "version": "latest"
+}

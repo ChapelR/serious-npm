@@ -5,6 +5,7 @@
     var jsonify = require('./scripts/jsonify.js');
     var init = require('./scripts/init.js');
     var serve = require('./scripts/serve.js');
+    var version = require('./package.json').version;
 
     function build () {
         clean();
@@ -32,6 +33,7 @@
         clean,
         build,
         serve,
-        buildAndServe
+        buildAndServe,
+        version
     };
 }());

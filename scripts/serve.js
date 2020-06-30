@@ -10,7 +10,6 @@ module.exports = function () {
     connect().use(serveStatic(paths.cwd)).listen(8000, function(){
         console.log('Server running on 8080...');
     });
-
-    // serve the app (this should probably be an -o option or similar)
     require('open')("http://localhost:8000/" + config.output);
+    
 };
