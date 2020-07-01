@@ -1,6 +1,6 @@
 # Serious (serious-fiction)
 
-[![Build Status](https://travis-ci.org/ChapelR/serious-npm.svg?branch=master)](https://travis-ci.org/ChapelR/serious-npm) [![Coverage Status](https://coveralls.io/repos/github/ChapelR/serious-npm/badge.svg?branch=master)](https://coveralls.io/github/ChapelR/serious-npm?branch=master)
+[![Build Status](https://travis-ci.org/ChapelR/serious-npm.svg?branch=master)](https://travis-ci.org/ChapelR/serious-npm) [![Coverage Status](https://coveralls.io/repos/github/ChapelR/serious-npm/badge.svg?branch=master)](https://coveralls.io/github/ChapelR/serious-npm?branch=master) ![Dependencies](https://img.shields.io/david/chapelr/serious-npm?style=flat) ![Version](https://img.shields.io/npm/v/serious-fiction)
 
 [![NPM](https://nodei.co/npm/serious-fiction.png)](https://npmjs.org/package/serious-fiction)
 
